@@ -108,4 +108,3 @@ Feel free to reach out to me for any inquiries, or just to say hello! You can al
 * Portfolio: [Link to Your Portfolio Website]
 * Twitter: [Your Twitter Handle]
 * Instagram: [Your Instagram Handle]
-
