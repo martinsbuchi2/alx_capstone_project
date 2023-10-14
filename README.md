@@ -102,9 +102,9 @@ Visual Studio Code: Integrated environment enhancing coding, debugging, and vers
 
 Feel free to reach out to me for any inquiries, or just to say hello! You can also connect with me on social media to stay updated on my latest projects and activities.
 
-* Email: [Your Email Address]
-* LinkedIn: [Your LinkedIn Profile]
-* GitHub: [Your GitHub Profile]
-* Portfolio: [Link to Your Portfolio Website]
-* Twitter: [Your Twitter Handle]
-* Instagram: [Your Instagram Handle]
+* Email: [martinsbuchi@gmail.com]
+* LinkedIn: [linkedin.com/in/martinsugwu]
+* GitHub: [https://github.com/]
+* Portfolio: []
+* Twitter: [twitter.com/martinsbuchie]
+* Instagram: [instagram.com/martinsibuchim]
