@@ -2,18 +2,18 @@
 
 ## Project Overview
 
- ### 1. Brief Description:
+ #### 1. Brief Description:
 
 Welcome to QuizMaster, where learning meets excitement! Dive into a world of knowledge with our interactive quiz game. It's not just a game; it's a thrilling journey through various subjects, designed to make your learning experience as enjoyable as possible.
 
-### 2. Purpose and Goals:
+#### 2. Purpose and Goals:
 Our mission is simple: to make learning a delightful adventure. That way we create an enjoyable and educational experience for users, while:
 
 * Entertaining and Educating: Providing a fun platform for users to explore various subjects while learning new facts.
 * Motivating and Challenging: Encouraging users to challenge themselves with different difficulty levels, boosting their confidence and knowledge.
 * Fostering Community: Creating a sense of community through the leaderboard, allowing users to compete, compare, and learn from one another.
 
-### 3. Problem Solving and Value Proposition:
+#### 3. Problem Solving and Value Proposition:
 
 QuizMaster solves the challenge of making learning engaging by turning education into an interactive game. It adds value by:
 
@@ -26,45 +26,45 @@ In essence, QuizMaster is a user-friendly, educational game that transforms lear
 
 ## Features and Functionality
 
-### 1. User verification:
+#### 1. User verification:
 To collect user's details for result display and for leaderboard.
 
-### 2. Multiple-Choice Questions:
+#### 2. Multiple-Choice Questions:
 Engaging multiple-choice questions challenge users’ knowledge. Each quiz is carefully crafted to be informative and fun, providing an enriching learning experience, covering a diverse range of subjects, from history and science to pop culture and current events.
 
-### 3. Leaderboard and Challenges:
+#### 3. Leaderboard and Challenges:
 QuizMaster fosters a sense of community. Users can compete with friends, join challenges, and see where they stand on the leaderboard. Friendly competition adds excitement and motivation.
 
 
  
 ## Technologies Used
 
-### Frontend Development:
+#### Frontend Development:
 
 HTML, CSS, JavaScript: Core technologies shaping the user interface and interactions.
 
-### Backend Development:
+#### Backend Development:
 
 Python: Powers backend logic, scripting, and server-side operations.
 Flask Framework: Lightweight Python framework managing backend APIs, data, and requests.
 
- ### Database:
+ #### Database:
 
 SQLAlchemy: Efficient database handling quiz data with simplicity.
 
- ### Web Services:
+ #### Web Services:
 
 RESTful API: Facilitates seamless data exchange between frontend and backend.
 
- ### User Authentication:
+ #### User Authentication:
 
 JWT (JSON Web Tokens): Ensures secure, stateless authentication, enhancing user data privacy.
 
- ### Version Control:
+ #### Version Control:
 
 Git: Enables collaborative development and efficient codebase management.
 
- ### Development Tools:
+ #### Development Tools:
 
 Visual Studio Code: Integrated environment enhancing coding, debugging, and version control.
 
