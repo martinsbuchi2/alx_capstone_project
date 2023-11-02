@@ -69,6 +69,8 @@ Visual Studio Code: Integrated environment enhancing coding, debugging, and vers
 
 ## Screenshots or Demo
 
+![Flow Diagram with draw.io](dist/images/quizgameFlow.drawio.png)
+
 ![Low Fidelity Prototypes with draw.io](dist/images/quizgame.drawio.png)
 
 
