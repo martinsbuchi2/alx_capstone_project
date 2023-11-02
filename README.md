@@ -69,8 +69,12 @@ Visual Studio Code: Integrated environment enhancing coding, debugging, and vers
 
 ## Screenshots or Demo
 
-1. ![Low Fidelity Prototypes with draw.io](dist/images/quizgame.drawio.png)
-2. [High Fidelity Prototypes with Figma](https://www.figma.com/file/kF0tH3hpaWHbna6z5zHDkO/Untitled?type=design&node-id=0%3A1&mode=design&t=FCvUuSDdqP4W8e09-1)
+![Low Fidelity Prototypes with draw.io](dist/images/quizgame.drawio.png)
+
+
+![High Fidelity Prototypes with Figma](dist/images/quizgame.figma.png)
+
+* [High Fidelity Prototypes with Figma](https://www.figma.com/file/kF0tH3hpaWHbna6z5zHDkO/Untitled?type=design&node-id=0%3A1&mode=design&t=FCvUuSDdqP4W8e09-1)
 
 ## Roadmap and future enhancements
 
