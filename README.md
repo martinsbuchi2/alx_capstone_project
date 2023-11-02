@@ -117,4 +117,3 @@ Feel free to reach out to me for any inquiries, or just to say hello! You can al
 * Twitter: [twitter.com/martinsbuchie](twitter.com/martinsbuchie)
 * Instagram: [instagram.com/martinsibuchim](instagram.com/martinsibuchim)
 
-
