@@ -32,10 +32,8 @@ To collect user's details for result display and for leaderboard.
 #### 2. Multiple-Choice Questions:
 Engaging multiple-choice questions challenge users’ knowledge. Each quiz is carefully crafted to be informative and fun, providing an enriching learning experience, covering a diverse range of subjects, from history and science to pop culture and current events.
 
-#### 3. Progress Tracking:
-Monitor your scores and growth through intuitive graphs and detailed statistics.
 
-#### 4. Leaderboard and Challenges:
+#### 3. Leaderboard and Challenges:
 QuizMaster fosters a sense of community. Users can compete with friends, join challenges, and see where they stand on the leaderboard. Friendly competition adds excitement and motivation.
 
 
@@ -48,20 +46,18 @@ HTML, CSS, JavaScript: Core technologies shaping the user interface and interact
 
 #### Backend Development:
 
+While HTML, CSS and JS technology were used for this project, the following would be considered as upgades are made:
 Python: Powers backend logic, scripting, and server-side operations.
 Flask Framework: Lightweight Python framework managing backend APIs, data, and requests.
 
  #### Database:
 
-SQLAlchemy: Efficient database handling quiz data with simplicity.
+Data are stored temporally in the session storage, subsequent update would enable SQLAlchemy (SQL) connection for DBM.
 
  #### Web Services:
 
-RESTful API: Facilitates seamless data exchange between frontend and backend.
+API: To provide question data and Facilitates seamless data exchange between frontend and backend.
 
- #### User Authentication:
-
-JWT (JSON Web Tokens): Ensures secure, stateless authentication, enhancing user data privacy.
 
  #### Version Control:
 
@@ -73,6 +69,8 @@ Visual Studio Code: Integrated environment enhancing coding, debugging, and vers
 
 ## Screenshots or Demo
 
+1. ![Low Fidelity Prototypes with draw.io](dist/images/quizgame.drawio.png)
+2. ![High Fidelity Prototypes with Figma](https://www.figma.com/file/kF0tH3hpaWHbna6z5zHDkO/Untitled?type=design&node-id=0%3A1&mode=design&t=FCvUuSDdqP4W8e09-1)
 
 ## Roadmap and future enhancements
 
