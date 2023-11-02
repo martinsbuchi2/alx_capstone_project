@@ -75,7 +75,6 @@ _fig. 1: Flow Diagram with draw.io_
 ![Low Fidelity Prototypes with draw.io](dist/images/quizgame.drawio.png)
 _fig. 2: Low Fidelity Prototypes with draw.io_
 
-
 ![High Fidelity Prototypes with Figma](dist/images/quizgame.figma.png)
 _fig. 3: High Fidelity Prototypes with Figma_
 
