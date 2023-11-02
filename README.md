@@ -32,7 +32,10 @@ To collect user's details for result display and for leaderboard.
 #### 2. Multiple-Choice Questions:
 Engaging multiple-choice questions challenge users’ knowledge. Each quiz is carefully crafted to be informative and fun, providing an enriching learning experience, covering a diverse range of subjects, from history and science to pop culture and current events.
 
-#### 3. Leaderboard and Challenges:
+#### 3. Progress Tracking:
+Monitor your scores and growth through intuitive graphs and detailed statistics.
+
+#### 4. Leaderboard and Challenges:
 QuizMaster fosters a sense of community. Users can compete with friends, join challenges, and see where they stand on the leaderboard. Friendly competition adds excitement and motivation.
 
 
@@ -107,3 +110,5 @@ Feel free to reach out to me for any inquiries, or just to say hello! You can al
 * GitHub: [https://github.com/martinsbuchi2](https://github.com/martinsbuchi2)
 * Twitter: [twitter.com/martinsbuchie](twitter.com/martinsbuchie)
 * Instagram: [instagram.com/martinsibuchim](instagram.com/martinsibuchim)
+
+

@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato";
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ea640d;
+}
+
+.welcome_text {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-rows: 60px auto;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  background-color: #000;
+}
+.game-tag{
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 80px;
+ }
+
+
+.welcome_form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.welcome_form input,
+.welcome_form button {
+  display: block;
+  width: 100%;
+}
+
+.welcome_form input {
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.welcome_form input:focus {
+  outline: none;
+}
+
+.welcome_form button {
+  padding: 20px 0;
+  border: none;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #ea640d;
+  font-size: 22px;
+  transition: 0.4s all;
+}
+
+.welcome_form button:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.quiz {
+  display: grid;
+  grid-template-rows: 60px auto;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  background-color: #000;
+}
+
+.quiz_header {
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #000;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.quiz_body {
+  padding: 30px 30px;
+}
+.quiz_user {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.quiz_timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100px;
+  background-color: #ea640d;
+  color: #fff;
+}
+.quiz_body {
+  background-color: #ecf0f1;
+}
+
+.questions {
+  color: #fff;
+}
+
+.option_group {
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.option {
+  display: block;
+  width: 300px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border: 2px solid transparent;
+  transition: 0.4s all;
+}
+
+.option:hover {
+  cursor: pointer;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  border: 2px solid #ea640d;
+  color: #ea640d;
+}
+.option.active {
+  background-color: #ea640d;
+  color: #fff;
+}
+.btn-next {
+  border: none;
+  padding: 15px 35px;
+  background-color: #ea640d;
+  color: #fff;
+  border-radius: 27px;
+  transition: 0.4s all;
+}
+
+.btn-next:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #ea640d;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.award_icon {
+  display: block;
+  font-size: 300px;
+  color: #fff;
+}
+
+.username,
+.userpoints,
+.usertime {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.leaderboard {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #fff;
+  width: 60%;
+  height: 25%;
+}
+
+.leaderboard .leaderboard-heading {
+  font-size: 40px;
+  line-height: 80px;
+}
+
+.btn-restart {
+  border: 1px solid #ea640d;
+  padding: 15px 35px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 29px;
+  transition: 0.4s all;
+  font-size: 20px;
+
+}
+
+.btn-restart:hover {
+  cursor: pointer;
+  background-color: #ea640d;
+  color: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+
+/* table, tr {
+  border-top: 1px solid #fff;
+} */
+
+#last-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-rows: 60px auto;
+  width: 500px;
+  height: 800px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  background-color: #000;
+}
