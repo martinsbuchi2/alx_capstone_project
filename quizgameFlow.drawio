@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-11-03T03:00:25.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="bGodGaLHSqKBeIuUPdQ1" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-03T03:06:46.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Vs-R3VDQRjzspXPCaPPC" version="22.0.3" type="device">
   <diagram name="Page-1" id="ckiwIKY03FOyuRGD2XbK">
     <mxGraphModel dx="2206" dy="1360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -164,10 +164,10 @@
         <mxCell id="Oj2rFbiSHgmjYQKhycOe-66" value="answer options" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Oj2rFbiSHgmjYQKhycOe-69" value="score ++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Oj2rFbiSHgmjYQKhycOe-69" value="question count ++&lt;br&gt;score ++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="598.75" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Oj2rFbiSHgmjYQKhycOe-75" value="questions&lt;br&gt;score = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Oj2rFbiSHgmjYQKhycOe-75" value="quiz questions&lt;br&gt;question count = 0&lt;br&gt;score = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="603.75" y="290" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Oj2rFbiSHgmjYQKhycOe-79" value="Ends" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
