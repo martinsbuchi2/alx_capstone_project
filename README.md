@@ -69,19 +69,19 @@ Visual Studio Code: Integrated environment enhancing coding, debugging, and vers
 
 ## Screenshots or Demo
 
-![Flow Diagram with draw.io](dist/images/quizgameFlow.drawio.png)
+![Flow Diagram with draw.io](Assets/images/quizgameFlow.drawio.png)
 
 _fig. 1: Flow Diagram with draw.io_
 
 
 
-![Low Fidelity Prototypes with draw.io](dist/images/quizgame.drawio.png)
+![Low Fidelity Prototypes with draw.io](Assets/images/quizgame.drawio.png)
 
 _fig. 2: Low Fidelity Prototypes with draw.io_
 
 
 
-![High Fidelity Prototypes with Figma](dist/images/quizgame.figma.png)
+![High Fidelity Prototypes with Figma](Assets/images/quizgame.figma.png)
 
 _fig. 3: High Fidelity Prototypes with Figma_
 
