@@ -4,7 +4,7 @@
 
  #### 1. Brief Description:
 
-Welcome to QuizMaster, where learning meets excitement! Dive into a world of knowledge with our interactive quiz game. It's not just a game; it's a thrilling journey through various subjects, designed to make your learning experience as enjoyable as possible.
+Welcome to Kwizzle, where learning meets excitement! Dive into a world of knowledge with our interactive quiz game. It's not just a game; it's a thrilling journey through various subjects, designed to make your learning experience as enjoyable as possible.
 
 #### 2. Purpose and Goals:
 Our mission is simple: to make learning a delightful adventure. That way we create an enjoyable and educational experience for users, while:
@@ -15,13 +15,13 @@ Our mission is simple: to make learning a delightful adventure. That way we crea
 
 #### 3. Problem Solving and Value Proposition:
 
-QuizMaster solves the challenge of making learning engaging by turning education into an interactive game. It adds value by:
+Kwizzle solves the challenge of making learning engaging by turning education into an interactive game. It adds value by:
 
 * Enhancing Knowledge: Enabling users to expand their knowledge in a playful environment, making learning more engaging.
 * Boosting Confidence: Allowing users to track progress and witness improvement, enhancing their confidence in their abilities.
 * Building Community: Creating a friendly competitive atmosphere, fostering interaction and learning among users.
 
-In essence, QuizMaster is a user-friendly, educational game that transforms learning into a fun, competitive, and interactive experience.
+In essence, Kwizzle is a user-friendly, educational game that transforms learning into a fun, competitive, and interactive experience.
 
 
 ## Features and Functionality
@@ -34,7 +34,7 @@ Engaging multiple-choice questions challenge users’ knowledge. Each quiz is ca
 
 
 #### 3. Leaderboard and Challenges:
-QuizMaster fosters a sense of community. Users can compete with friends, join challenges, and see where they stand on the leaderboard. Friendly competition adds excitement and motivation.
+Kwizzle fosters a sense of community. Users can compete with friends, join challenges, and see where they stand on the leaderboard. Friendly competition adds excitement and motivation.
 
 
  
