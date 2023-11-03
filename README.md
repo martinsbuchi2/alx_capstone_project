@@ -119,7 +119,7 @@ _fig. 3: High Fidelity Prototypes with Figma_
 
 Feel free to reach out to me for any inquiries, or just to say hello! You can also connect with me on social media to stay updated on my latest projects and activities.
 
-* Email: [martinsbuchi@gmail.com](martinsbuchi@gmail.com)
+* Email: [martinsbuchie@gmail.com](martinsbuchi@gmail.com)
 * LinkedIn: [linkedin.com/in/martinsugwu](linkedin.com/in/martinsugwu)
 * GitHub: [https://github.com/martinsbuchi2](https://github.com/martinsbuchi2)
 * Twitter: [twitter.com/martinsbuchie](twitter.com/martinsbuchie)
