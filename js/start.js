@@ -4,9 +4,9 @@ function submitForm(e) {
     let email = document.forms["welcome_form"]["email"].value;
     
     sessionStorage.setItem("name", name);
-    // localStorage.setItem("name", name);
+    localStorage.setItem("name", name);
     sessionStorage.setItem("email", email);
-  
+    
     location.href = "quiz.html";
   }
 
