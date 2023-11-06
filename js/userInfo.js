@@ -28,16 +28,13 @@ const restartButton = document.getElementById('restart');
     location.href = "quiz.html";
  }
 
-
  // storing the points in local storage
  const lastScore = {
     lastScore: points,
     name: username.value,
   };
   score.push(lastScore);
-//   score.sort((a, b) => b.lastScore - a.lastScore);
-//   score.splice(5);
-
+  
   const scores = JSON.stringify(score);
   localStorage.setItem("scores", scores);
 
