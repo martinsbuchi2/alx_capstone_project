@@ -1,42 +1,42 @@
 
-let questions = []
-//   {
-//     id: 1,
-//     question: "What is the full form of RAM ?",
-//     answer: "Random Access Memory",
-//     options: [
-//       "Random Access Memory",
-//       "Randomely Access Memory",
-//       "Run Aceapt Memory",
-//       "None of these"
-//     ]
-//   },
+let questions = [
+  {
+    id: 1,
+    question: "What is the full form of RAM ?",
+    answer: "Random Access Memory",
+    options: [
+      "Random Access Memory",
+      "Randomely Access Memory",
+      "Run Aceapt Memory",
+      "None of these"
+    ]
+  },
 
-//   {
-//     id: 2,
-//     question: "What is the full form of CPU?",
-//     answer: "Central Processing Unit",
-//     options: [
-//       "Central Program Unit",
-//       "Central Processing Unit",
-//       "Central Preload Unit",
-//       "None of these"
-//     ]
-//   },
+  {
+    id: 2,
+    question: "What is the full form of CPU?",
+    answer: "Central Processing Unit",
+    options: [
+      "Central Program Unit",
+      "Central Processing Unit",
+      "Central Preload Unit",
+      "None of these"
+    ]
+  },
 
-//   {
-//     id: 3,
-//     question: "What is the full form of E-mail",
-//     answer: "Electronic Mail",
-//     options: [
-//       "Electronic Mail",
-//       "Electric Mail",
-//       "Engine Mail",
-//       "None of these"
-//     ]
-//   }
+  {
+    id: 3,
+    question: "What is the full form of E-mail",
+    answer: "Electronic Mail",
+    options: [
+      "Electronic Mail",
+      "Electric Mail",
+      "Engine Mail",
+      "None of these"
+    ]
+  }
 
-// ];
+];
 
 // let currentQuestion = {};
 // let acceptingAnswers = false;
@@ -46,24 +46,24 @@ let questions = []
 let question_count = 0;
 let points = 0;
 
-fetch('questions.json')
-    .then((res) => {
-        return res.json();
-    })
-    .then((data) => {
-        questions = data;
-        next();
-    })
-    .catch((err) => {
-        console.error(err);
-    });
+// fetch('questions.json')
+//     .then((res) => {
+//         return res.json();
+//     })
+//     .then((data) => {
+//         questions = data;
+//         next();
+//     })
+//     .catch((err) => {
+//         console.error(err);
+//     });
 
-  startGame = () => {
-      questionCounter = 0;
-      score = 0;
-      availableQuesions = [...questions];
-      next();
-  };
+//   startGame = () => {
+//       questionCounter = 0;
+//       score = 0;
+//       availableQuesions = [...questions];
+//       next();
+//   };
 
 
 
@@ -76,23 +76,23 @@ window.onload = function() {
 function next() {
 
    
+  let user_answer = document.querySelector("li.option.active").innerHTML;
+  // check if the answer is right or wrong
+  if (user_answer == questions[question_count].answer) {
+    points += 1; 
+  }
+  console.log(points);
+
   // if the question is last then redirect to final page
   if (question_count == questions.length - 1) {
+    sessionStorage.setItem("points", points);
+    // localStorage.setItem("points", points);
     sessionStorage.setItem("time", time);
     clearInterval(mytime);
     location.href = "end.html";
   }
-  // console.log(question_count);
+  console.log(question_count);
 
-  let user_answer = document.querySelector("li.option.active").innerHTML;
-  // check if the answer is right or wrong
-  if (user_answer == questions[question_count].answer) {
-    points += 1;
-    sessionStorage.setItem("points", points);
-    
-    localStorage.setItem("points", points); 
-  }
-  // console.log(points);
 
   question_count++;
   show(question_count);
