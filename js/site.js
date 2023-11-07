@@ -81,7 +81,7 @@ function next() {
   if (user_answer == questions[question_count].answer) {
     points += 1; 
   }
-  console.log(points);
+  // console.log(points);
 
   // if the question is last then redirect to final page
   if (question_count == questions.length - 1) {
@@ -91,7 +91,7 @@ function next() {
     clearInterval(mytime);
     location.href = "end.html";
   }
-  console.log(question_count);
+  // console.log(question_count);
 
 
   question_count++;
