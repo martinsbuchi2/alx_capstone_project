@@ -11,7 +11,6 @@ function submitForm(e) {
   }
 
   
-const username = document.getElementById('username');
-
+// const username = document.getElementById('username');
 
 
