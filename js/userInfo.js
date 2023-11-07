@@ -2,11 +2,8 @@ let user_name = sessionStorage.getItem("name");
 let user_points = sessionStorage.getItem("points");
 let user_time = sessionStorage.getItem("time");
 
-
 // let user = localStorage.getItem("name");
 // let user_score = localStorage.getItem("points");
-
-
 
 let score = JSON.parse(localStorage.getItem("scores")) || [];
 
@@ -36,6 +33,7 @@ const restartButton = document.getElementById('restart');
     location.href = "quiz.html";
  }
 
+ 
  // storing the points in local storage
  const lastScore = {
     lastScore: user_points,
