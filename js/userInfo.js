@@ -3,8 +3,8 @@ let user_points = sessionStorage.getItem("points");
 let user_time = sessionStorage.getItem("time");
 
 
-let user = sessionStorage.getItem("name");
-let user_score = sessionStorage.getItem("points");
+// let user = localStorage.getItem("name");
+// let user_score = localStorage.getItem("points");
 
 
 
@@ -38,10 +38,11 @@ const restartButton = document.getElementById('restart');
 
  // storing the points in local storage
  const lastScore = {
-    lastScore: user_score,
-    name: user,
+    lastScore: user_points,
+    name: user_name,
   };
   score.push(lastScore);
+  score.sort((a, b) => b.lastScore - a.lastScore);
 
   const scores = JSON.stringify(score);
   localStorage.setItem("scores", scores);
