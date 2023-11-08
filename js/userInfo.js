@@ -14,7 +14,7 @@ document.querySelector("span.time_taken").innerHTML = user_time;
 // document.querySelector("td.score").innerHTML = score;
 document.querySelector("td.user").innerHTML = score
 .map(score => {
-  return `<li class="high-score">${score.name}----- ${score.lastScore}</li>`;
+  return `<table class="user">${score.name} ${score.lastScore}</table>`;
 })
 .join("");
 
