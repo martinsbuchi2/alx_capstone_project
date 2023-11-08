@@ -221,11 +221,29 @@ body {
 table {
   width: 100%;
   border-top: 1px solid #fff;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+tr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  word-spacing: 5px;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
-/* table, tr {
-  border-top: 1px solid #fff;
-} */
+
+td.user {
+position: relative;
+word-spacing: 140px;
+border-collapse: collapse;
+width: 100%;
+font-size: 12px;
+
+
+
+}
 
 #last-wrapper {
   display: flex;
